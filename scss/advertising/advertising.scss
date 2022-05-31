@@ -1,0 +1,89 @@
+.advertising{
+  margin: 180px 0 170px 0;
+
+  .row{
+	gap: 30px;
+	margin-bottom: 85px;
+  }
+  .advertising__wrapper{
+	width: calc(100% / 3);
+
+	.advertising__wrapper-img{
+	  margin-bottom: 30px;
+
+	}
+	.advertising__wrapper-title{
+	  width: 86%;
+	  margin-bottom: 25px;
+	  h3{
+		font-weight: 700;
+		font-size: 35px;
+		line-height: 42px;
+		text-transform: capitalize;
+	  }
+	}
+	.advertising__wrapper-text{
+	  width: 86%;
+	  margin-bottom: 40px;
+	  p{
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 32px;
+	  }
+	}
+	.advertising__wrapper-people{
+	  .people-photo-name{
+		img{
+		  float: left;
+		  margin-right: 30px;
+		}
+		.clearfix::after {
+		  content: '';
+		  clear: both;
+		  display: block;
+		}
+		h4{
+		  font-weight: 700;
+		  font-size: 20px;
+		  line-height: 28px;
+		}
+	  }
+	  .people-text{
+		display: flex;
+
+		p{
+		  font-weight: 400;
+		  font-size: 18px;
+		  line-height: 29px;
+		  span:before{
+			content: ' ';
+			background: #29A0F5;
+			border-radius: 5px;
+			height: 5px;
+			width: 5px;
+			margin: 5px 10px;
+			display: inline-block;
+		  }
+		}
+	  }
+	}
+  }
+  .wrapper__advertising-btn{
+	width: 14%;
+	margin: 0 auto;
+	a{
+	  text-align: center;
+	  color: #FFFFFF;
+	  background: #29A0F5;
+	  border: 1px solid #29A0F5;
+	  width: 102%;
+	  height: 70px;
+	  padding: 20px 0;
+	}
+	a:hover{
+	  color: #29A0F5;
+	  background: #FFFFFF;
+	}
+
+  }
+}

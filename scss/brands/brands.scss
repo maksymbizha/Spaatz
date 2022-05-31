@@ -1,0 +1,28 @@
+.brands{
+  .brands__wrapper{
+	margin: 160px 0 180px 0;
+
+	.brands__title{
+	  margin-bottom: 85px;
+
+	  h2{
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 42px;
+		text-align: center;
+		text-transform: capitalize;
+	  }
+	}
+	.brands__content{
+	  .brands__list{
+		justify-content: space-around;
+		li{
+		  margin-top: 20px;
+		}
+		li:nth-child(2){
+		  margin-top: 0;
+		}
+	  }
+	}
+  }
+}
