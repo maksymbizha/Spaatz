@@ -8,22 +8,20 @@
 
     <title>Spaatz</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 <body>
-<header>
-    <div class="header--background">
-        <img src="../assets/icons/header-background.png" alt="#">
-    </div>
+<header class="header">
     <div class="container">
-        <div class="header__position row">
-                <div>
+        <div class="header__navigation row">
+                <div class="header__navigation-logo">
                     <img src="../assets/icons/spaatz-header-logo.png" alt="#">
                 </div>
-                <nav>
-                    <ul>
+                <nav class="header__navigation-menu">
+                    <ul class="d-flex">
                         <li><a class="active" href="#">Web App</a></li>
                         <li><a href="#">Mobile App</a></li>
                         <li><a href="#">Pricing</a></li>
@@ -31,18 +29,17 @@
                         <li><a href="#">Utility Pages</a></li>
                     </ul>
                 </nav>
-                <div class="header--btn-nav btn">
-                    <a href="#"> Request A Demo
-                        <img class="btn-img" src="../assets/icons/btn-vector.png" alt="#">
-                    </a>
+                <div class="header__navigation-btn btn">
+                    <a href="#"> Request A Demo</a>
                 </div>
         </div>
-        <div class="header__title">
-            <p>All your business analytics in</p>
-            <p>a Single <span>Dashboard</span></p>
-            <div class="header--btn-title btn">
-                <a href="#"> Get Started
-                    <img class="btn-img" src="../assets/icons/btn-vector.png" alt="#">
+
+        <div class="header__title d-flex AI-center">
+            <h1>All your business analytics in a Single <span>Dashboard</span></h1>
+            <div class="header__title-btn btn">
+                <a href="#">
+                    Get Started
+                   <i class="bi bi-arrow-right-short"></i>
                 </a>
             </div>
         </div>
@@ -59,36 +56,34 @@
         </div>
     </section>
 
-    <section>
-        <div class="service">
+    <section class="service">
             <div class="container">
                 <div class="row">
 
                     <div class="service__content">
 
-                        <div class="service__title">
+                        <div class="service__content-text">
                             <h2>Perfect approach towards <span>software</span></h2>
-                        </div>
-                        <div class="service__text">
+
                             <p>It’s a social collaboration mail software platform that employees really love to use, with rich personalized interface helps to promote your product and connect with good buyer.</p>
                         </div>
 
-                        <div class="service__wrapper">
-                            <div class="service__item">
-                                <div class="service__item-img-diamond">
+                        <div class="service__content-wrapper d-flex">
+                            <div class="service__content-wrapper-item d-flex AI-center">
+                                <div class="service__content-wrapper-item-img-diamond">
                                     <img src="../assets/icons/diamond.png" alt="#">
                                 </div>
-                                <div class="service__item-text">
+                                <div class="service__content-wrapper-item-text">
                                     <h3>Increase Workflow</h3>
                                     <p>Abilities taken within a multiple platforms</p>
                                 </div>
                             </div>
 
-                            <div class="service__item">
-                                <div class="service__item-img-lock">
+                            <div class="service__content-wrapper-item d-flex AI-center">
+                                <div class="service__content-wrapper-item-img-lock">
                                     <img src="../assets/icons/lock.png" alt="#">
                                 </div>
-                                <div class="service__item-text">
+                                <div class="service__content-wrapper-item-text">
                                     <h3>Secured Structure</h3>
                                     <p>Purpose oriented structures protect thedata</p>
                                 </div>
@@ -103,11 +98,9 @@
 
                 </div>
             </div>
-        </div>
     </section>
 
-    <section>
-        <div class="leads">
+    <section class="leads">
             <div class="container">
                 <div class="leads__wrapper1 row">
                     <div class="wrapper__content">
@@ -188,7 +181,6 @@
                 </div>
 
             </div>
-        </div>
     </section>
 
     <section>

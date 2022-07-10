@@ -1,113 +1,93 @@
-body{
-  font-family: 'Open Sans', sans-serif;
-  color: #1B2534;
-}
-.btn{
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0.4px;
-  a{
-	border-radius: 20px;
-	text-decoration: none;
-	display: inline-block;
-  }
-  .btn-img{
-	display: inline-block;
-	height: 15px;
-  }
-}
-.container{
-  max-width: 1470px;
-  margin: 0 auto;
-  padding: 0 15px;
+.header {
+  padding-top: 40px;
+  background-image: url("/assets/icons/header-background.png");
+  background-size: cover;
   width: 100%;
-}
-.row{
-  display: flex;
-}
+  height: 1086px;
 
+  &__navigation{
+	justify-content: space-between;
+	margin-bottom: 100px;
 
-
-header {
-  .header__position{
-	gap: 225px;
-	position: absolute;
-	top: 13%;
-  }
-  .header--background img {
-	display: inline-block;
-	width: 100%;
-	position: revert;
-	top: 0;
-  }
-
-  ul {
-	display: flex;
-	gap: 60px;
-
-	li {
-	  a {
-		font-family: 'Open Sans', sans-serif;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 18px;
-		line-height: 20px;
-		color: #1B2534;
-		text-decoration: none;
+	&-menu{
+	  ul{
+		gap: 60px;
+		li {
+		  	a {
+		  	  font-style: normal;
+		  	  font-weight: 400;
+		  	  font-size: $font-sm;
+		  	  line-height: 20px;
+		  	  color: $bg-color;
+		  	  text-decoration: none;
+		  	}
+		  	.active {
+		  	  color: $active-color;
+		  	}
+		  	a:hover{
+		  	  color: $active-color;
+		  	}
+		}
 	  }
-	  .active {
-		color: #0082F3;
+	}
+	&-btn{
+	  width: 220px;
+	  a {
+		text-align: center;
+		line-height: 25px;
+		color: #FFFFFF;
+		background-color: $bg-color;
+		border-radius: 15px;
+		padding: 15px 0;
+		width: 100%;
 	  }
 	  a:hover{
-		color: #0082F3;
+		color: $bg-color;
+		background-color: #FFFFFF;
 	  }
 	}
   }
-  .header--btn-nav{
-	a {
-	  line-height: 25px;
-	  color: #FFFFFF;
-	  background-color: #1B2534;
-	  border-radius: 15px;
-	  padding: 15px;
-	}
-	a:hover{
-	  color: #1B2534;
-	  background-color: #FFFFFF;
-	}
-  }
-  .header__title{
-	position: absolute;
-	top: 40%;
-	left: 10%;
-	p{
+
+  &__title{
+	flex-direction: column;
+
+	h1{
 	  font-weight: 700;
-	  font-size: 80px;
+	  font-size: $font-xxxl;
 	  line-height: 104px;
 	  text-align: center;
 	  text-transform: capitalize;
-	  color: #1B2534;
+	  color: $bg-color;
+	  margin-bottom: 40px;
 	  span{
-		color: #29A0F5;
+		color: $accent-color;
 	  }
 	}
-	.header--btn-title {
-	  position: absolute;
-	  left: 40%;
-	  top: 125%;
+
+	&-btn{
+	  width: 220px;
 	  a{
 		text-align: center;
-		color: #1B2534;
+		color: $bg-color;
 		background: #FFFFFF;
 		border: 1px solid #FFFFFF;
-		padding: 15px;
+		padding: 15px 0;
+		width: 100%;
+		i{
+		  font-size: 26px;
+		  color: $accent-color;
+		}
 	  }
 	  a:hover{
 		color: #FFFFFF;
-		background-color: #1B2534;
+		background-color: $bg-color;
 	  }
 	}
   }
 }
+
+
+
+
+
+
