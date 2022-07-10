@@ -1,0 +1,33 @@
+.soft{
+  @media (max-width: 1470px) {
+	.container{
+	  max-width: 1200px;
+	}
+	&__wrapper{
+	  flex-direction: column;
+	  &-content{
+		width: 100%;
+	  }
+	}
+  }
+  @media (max-width: 1200px) {
+	.container {
+	  max-width: 992px;
+	}
+  }
+  @media (max-width: 922px) {
+	.container {
+	  max-width: 768px;
+	}
+	&__title{
+	  h2{
+		font-size: 40px;
+	  }
+	}
+  }
+  @media (max-width: 768px) {
+	.container {
+	  max-width: 576px;
+	}
+  }
+}

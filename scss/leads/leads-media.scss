@@ -1,0 +1,74 @@
+.leads{
+  @media (max-width: 1470px) {
+	.container{
+	  max-width: 1200px;
+	}
+	.leads__wrapper3{
+	  flex-direction: column;
+	  .wrapper__analyst{
+		width: 100%;
+		max-width: none;
+		flex-direction: column;
+		margin-bottom: 35px;
+
+		.wrapper__analyst-content{
+		  .wrapper__analyst-title{
+			h3{
+			  text-align: center;
+			}
+		  }
+		  .wrapper__analyst-btn{
+			a{
+			  text-align: center;
+			}
+		  }
+		}
+	  }
+	  .wrapper__gallery{
+		max-width: none;
+		width: 100%;
+	  }
+	}
+  }
+  @media (max-width: 1200px) {
+	.container {
+	  max-width: 992px;
+	}
+	.leads__wrapper1{
+	  flex-direction: column;
+	  .wrapper__content{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 35px;
+		h2,p{
+		  max-width: none;
+		  width: 100%;
+		}
+	  }
+	  .wrapper__img{
+		img{
+		  width: 100%;
+		}
+	  }
+	}
+	.leads__wrapper2{
+	  flex-direction: column;
+	  .leads__wrapper-tools,
+	  .leads__wrapper-support,
+	  .leads__wrapper-schedule{
+		max-width: none;
+		width: 100%;
+	  }
+	}
+  }
+  @media (max-width: 922px) {
+	.container {
+	  max-width: 768px;
+	}
+  }
+  @media (max-width: 768px) {
+	.container {
+	  max-width: 576px;
+	}
+  }
+}
