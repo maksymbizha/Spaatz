@@ -1,17 +1,19 @@
 .feedback{
   background: #1B2534;
-  height: 859px;
+  background-size: 100% auto;
+  padding: 100px 0;
 
   .row{
 	justify-content: space-between;
   }
-  .feedback__content{
-	padding-top: 140px;
+  &__content{
 	width: 50%;
 
-	.content__title{
+	&-title{
 	  display: flex;
 	  margin-bottom: 40px;
+	  align-items: center;
+	  gap: 30px;
 
 	  h2{
 		font-weight: 700;
@@ -22,10 +24,9 @@
 	  img{
 		Width: 42.73px;
 		Height: 39.52px;
-		margin: 30px 0 0 30px;
 	  }
 	}
-	.content__text{
+	&-text{
 	  margin-bottom: 90px;
 
 	  p{
@@ -38,7 +39,7 @@
 		}
 	  }
 	}
-	.content__grade{
+	&-grade{
 
 	  h3{
 		font-weight: 700;
@@ -55,7 +56,9 @@
 	  }
 	}
   }
-  .feedback__photo-img{
-	padding-top: 262px;
+  &__photo-img{
+  img{
+	width: 100%;
+  }
   }
 }

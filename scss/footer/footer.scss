@@ -1,13 +1,13 @@
-footer{
+.footer{
   background: #1B2534;
   padding: 155px 0 70px 0;
 
-  .footer__wrapper{
+  &__wrapper{
 	padding-bottom: 10px;
 	justify-content: space-between;
 	border-bottom: 1px white solid;
 
-	.footer__wrapper-logo{
+	&-logo{
 	  width: 20%;
 
 	  .footer-logo{
@@ -32,7 +32,7 @@ footer{
 		}
 	  }
 	}
-	.footer__wrapper-vid{
+	&-vid{
 	  width: 30%;
 	  iframe{
 		height: 327px;
@@ -69,12 +69,12 @@ footer{
 	  }
 	}
   }
-  .footer__wrapper-developers{
+  &__wrapper-developers{
 	margin-top: 40px;
 	display: flex;
 	justify-content: space-between;
 
-	.wrapper-developers{
+	&-item{
 	  ul{
 		display: flex;
 		gap: 25px;

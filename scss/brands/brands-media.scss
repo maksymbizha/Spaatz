@@ -1,0 +1,31 @@
+.brands{
+  @media (max-width: 1470px) {
+	.container{
+	  max-width: 1200px;
+	}
+  }
+  @media (max-width: 1200px) {
+	.container {
+	  max-width: 992px;
+	}
+	&__wrapper-content{
+	  ul{
+		flex-direction: column;
+		gap: 40px;
+	  }
+	}
+  }
+  @media (max-width: 922px) {
+	.container {
+	  max-width: 768px;
+	}
+  }
+  @media (max-width: 768px) {
+	.container {
+	  max-width: 576px;
+	}
+  }
+  @media (max-width: 576px){
+
+  }
+}
